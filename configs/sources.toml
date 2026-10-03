@@ -1,0 +1,133 @@
+# 取得するファイル。size_hint は確認時に利用者へ示す目安
+[osm-kanto]
+url = "https://download.geofabrik.de/asia/japan/kanto-261001.osm.pbf"
+file = "kanto-261001.osm.pbf"
+size_hint = "約 492 MB (515,684,430 bytes)"
+license = "ODbL 1.0"
+
+[n02]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N02/N02-25/N02-25_GML.zip"
+file = "N02-25_GML.zip"
+size_hint = "14.2 MB"
+license = "CC BY 4.0"
+
+[n03-11]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2026/N03-20260101_11_GML.zip"
+file = "N03-20260101_11_GML.zip"
+size_hint = "3.41 MB"
+license = "CC BY 4.0"
+
+[n03-12]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2026/N03-20260101_12_GML.zip"
+file = "N03-20260101_12_GML.zip"
+size_hint = "7.76 MB"
+license = "CC BY 4.0"
+
+[n03-13]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2026/N03-20260101_13_GML.zip"
+file = "N03-20260101_13_GML.zip"
+size_hint = "12.54 MB"
+license = "CC BY 4.0"
+
+[n03-14]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2026/N03-20260101_14_GML.zip"
+file = "N03-20260101_14_GML.zip"
+size_hint = "5.12 MB"
+license = "CC BY 4.0"
+
+[abr-town-13]
+url = "https://data.address-br.digital.go.jp/mt_town/pref/mt_town_pref13.csv.zip"
+file = "mt_town_pref13.csv.zip"
+size_hint = "約 84 KB (83,827 bytes)"
+license = "CC BY 4.0"
+
+[abr-town-pos-13]
+url = "https://data.address-br.digital.go.jp/mt_town_pos/pref/mt_town_pos_pref13.csv.zip"
+file = "mt_town_pos_pref13.csv.zip"
+size_hint = "約 84 KB (84,132 bytes)"
+license = "CC BY 4.0"
+
+[oedo-pdf]
+url = "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/2025-10-15-111344-482"
+file = "oedo-extension-2025-10-15.pdf"
+size_hint = "1.8 MB (1,753,986 bytes)"
+license = "参照のみ (再配布しない)"
+
+[estat-pop250-5338]
+url = "https://www.e-stat.go.jp/gis/statmap-search/data?statsId=T001142&code=5338&downloadType=2"
+file = "tblT001142Q5338.zip"
+size_hint = "不明 (e-Stat は大きさを返さない。100 MB を超えたら中断)"
+license = "e-Stat 利用規約 (CC BY 4.0 互換)"
+
+[estat-pop250-5339]
+url = "https://www.e-stat.go.jp/gis/statmap-search/data?statsId=T001142&code=5339&downloadType=2"
+file = "tblT001142Q5339.zip"
+size_hint = "不明 (e-Stat は大きさを返さない。100 MB を超えたら中断)"
+license = "e-Stat 利用規約 (CC BY 4.0 互換)"
+
+[s12]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/S12/S12-25/S12-25_GML.zip"
+file = "S12-25_GML.zip"
+size_hint = "6.9 MB (6,913,743 bytes)"
+license = "CC BY 4.0"
+
+# --- Osaka ---
+[osm-kansai]
+url = "https://download.geofabrik.de/asia/japan/kansai-261001.osm.pbf"
+file = "kansai-261001.osm.pbf"
+size_hint = "約 336 MB (352,390,316 bytes)"
+license = "ODbL 1.0"
+
+[n03-26]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2026/N03-20260101_26_GML.zip"
+file = "N03-20260101_26_GML.zip"
+size_hint = "4.8 MB (4,763,987 bytes)"
+license = "CC BY 4.0"
+
+[n03-27]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2026/N03-20260101_27_GML.zip"
+file = "N03-20260101_27_GML.zip"
+size_hint = "2.4 MB (2,374,543 bytes)"
+license = "CC BY 4.0"
+
+[n03-28]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2026/N03-20260101_28_GML.zip"
+file = "N03-20260101_28_GML.zip"
+size_hint = "9.5 MB (9,539,198 bytes)"
+license = "CC BY 4.0"
+
+[n03-29]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2026/N03-20260101_29_GML.zip"
+file = "N03-20260101_29_GML.zip"
+size_hint = "2.4 MB (2,355,625 bytes)"
+license = "CC BY 4.0"
+
+[n03-30]
+url = "https://nlftp.mlit.go.jp/ksj/gml/data/N03/N03-2026/N03-20260101_30_GML.zip"
+file = "N03-20260101_30_GML.zip"
+size_hint = "9.4 MB (9,374,660 bytes)"
+license = "CC BY 4.0"
+
+[abr-town-27]
+url = "https://data.address-br.digital.go.jp/mt_town/pref/mt_town_pref27.csv.zip"
+file = "mt_town_pref27.csv.zip"
+size_hint = "145 KB (144,643 bytes)"
+license = "CC BY 4.0"
+
+[abr-town-pos-27]
+url = "https://data.address-br.digital.go.jp/mt_town_pos/pref/mt_town_pos_pref27.csv.zip"
+file = "mt_town_pos_pref27.csv.zip"
+size_hint = "127 KB (126,681 bytes)"
+license = "CC BY 4.0"
+
+[estat-pop250-5135]
+url = "https://www.e-stat.go.jp/gis/statmap-search/data?statsId=T001142&code=5135&downloadType=2"
+file = "tblT001142Q5135.zip"
+size_hint = "不明 (e-Stat は大きさを返さない。100 MB を超えたら中断)"
+license = "e-Stat 利用規約 (CC BY 4.0 互換)"
+
+[estat-pop250-5235]
+url = "https://www.e-stat.go.jp/gis/statmap-search/data?statsId=T001142&code=5235&downloadType=2"
+file = "tblT001142Q5235.zip"
+size_hint = "不明 (e-Stat は大きさを返さない。100 MB を超えたら中断)"
+license = "e-Stat 利用規約 (CC BY 4.0 互換)"

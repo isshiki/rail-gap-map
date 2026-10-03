@@ -1,0 +1,227 @@
+{
+ "region": "osaka",
+ "label": "大阪府",
+ "place_name": "大阪",
+ "home_view": {
+  "center": [
+   135.52,
+   34.66
+  ],
+  "zoom": 9.6
+ },
+ "walk_m_per_min": 80,
+ "blank_min": 20,
+ "bus_km": 5,
+ "osm_source": "osm-kansai",
+ "scenarios": [
+  {
+   "name": "base",
+   "label": "現在",
+   "note": "",
+   "title": "",
+   "verb": "延伸",
+   "opening": "",
+   "sources": [],
+   "planned": []
+  },
+  {
+   "name": "osaka-plan",
+   "label": "計画路線の開業後",
+   "note": "大阪府・事業者などの公開資料にある位置の説明 (どの道路のどちら側か、どの駅と乗り換えか) から筆者が推定した概略位置です。モノレール延伸となにわ筋線の駅は、OpenStreetMap に載っている工事中の路線の上に置きました。座標は公表されていません。開業時期は今後変わる可能性があります。",
+   "title": "開業予定の路線 (大阪モノレール延伸・なにわ筋線・森之宮新駅) で空白地帯はどう変わる？",
+   "verb": "開業",
+   "opening": "2028〜2033年",
+   "sources": [
+    {
+     "name": "大阪府 大阪モノレール延伸事業",
+     "url": "https://www.pref.osaka.lg.jp/o130090/toshikotsu/osakamonorail-enshin/index.html"
+    },
+    {
+     "name": "大阪モノレール 延伸プロジェクト",
+     "url": "https://www.osaka-monorail.co.jp/know/stretching/"
+    },
+    {
+     "name": "関西高速鉄道 なにわ筋線",
+     "url": "https://www.kr-railway.co.jp/naniwa/"
+    },
+    {
+     "name": "大阪府 なにわ筋線",
+     "url": "https://www.pref.osaka.lg.jp/o130080/toshikotsu/naniwasuzisen/index.html"
+    },
+    {
+     "name": "Osaka Metro 森之宮新駅 (2024-06-28)",
+     "url": "https://subway.osakametro.co.jp/news/news_release/20240628_morinomiya_kidoujigyou_tokkyo.php"
+    }
+   ],
+   "planned": [
+    {
+     "name": "松生町（仮称）",
+     "lon": 135.58273,
+     "lat": 34.73049,
+     "basis": "門真市松生町、ららぽーと門真の西側の中央環状線上 (大阪府 松生町駅設置事業)。OSM の工事中の線上"
+    },
+    {
+     "name": "門真南（仮称）",
+     "lon": 135.59034,
+     "lat": 34.71586,
+     "basis": "地下鉄 長堀鶴見緑地線 門真南駅と乗り換え (大阪府)。地下鉄駅に最も近い OSM の工事中の線上の点"
+    },
+    {
+     "name": "鴻池新田（仮称）",
+     "lon": 135.59229,
+     "lat": 34.6978,
+     "basis": "JR 鴻池新田駅と乗り換え、JR 高架の南の中央環状線上 (大阪府)。OSM の工事中の線上"
+    },
+    {
+     "name": "荒本（仮称）",
+     "lon": 135.60181,
+     "lat": 34.68,
+     "basis": "東大阪市荒本北二丁目、中央大通の北で市役所の北東 (大阪府・東大阪市)。OSM の工事中の線上"
+    },
+    {
+     "name": "瓜生堂（仮称）",
+     "lon": 135.59884,
+     "lat": 34.66343,
+     "basis": "中央環状線と近鉄奈良線の交点、八戸ノ里と若江岩田の中間。近鉄奈良線にも新駅を設けて乗り換え (大阪府・東大阪市)。OSM の工事中の線と近鉄奈良線の交点"
+    },
+    {
+     "name": "中之島（仮称）",
+     "lon": 135.48973,
+     "lat": 34.69116,
+     "basis": "なにわ筋の直下、中之島四丁目と五丁目の境 (関西高速鉄道・大阪市)。OSM の工事中の線上"
+    },
+    {
+     "name": "西本町（仮称）",
+     "lon": 135.49304,
+     "lat": 34.68168,
+     "basis": "西区阿波座一丁目、中央大通となにわ筋の交差部付近 (関西高速鉄道)。OSM の工事中の線上"
+    },
+    {
+     "name": "南海新難波（仮称）",
+     "lon": 135.49887,
+     "lat": 34.66574,
+     "basis": "浪速区難波中一丁目、阪神高速環状線の高架付近 (関西高速鉄道)。OSM の工事中の線上"
+    },
+    {
+     "name": "森之宮新駅（仮称）",
+     "lon": 135.5365,
+     "lat": 34.687,
+     "basis": "城東区森之宮一丁目、森之宮検車場の北端で大阪公立大学森之宮キャンパス寄り (Osaka Metro)。確度は低め"
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "n02": {
+   "file": "N02-25_GML.zip",
+   "retrieved_utc": "2026-10-03T09:28:23Z",
+   "sha256": "aaf76af133b2e771e538fabc4646d2e443dc1d5a67b221382a28d744e706cc9f"
+  },
+  "n03-11": {
+   "file": "N03-20260101_11_GML.zip",
+   "retrieved_utc": "2026-10-03T09:28:23Z",
+   "sha256": "f45239da019b4c77330a752031b758d3a6125c6a6ff49fe4e0be930857ab3643"
+  },
+  "n03-12": {
+   "file": "N03-20260101_12_GML.zip",
+   "retrieved_utc": "2026-10-03T09:28:23Z",
+   "sha256": "558348445ef9c8fa609010759061833aff8c009fab98860c03e1bff59ad18d7c"
+  },
+  "n03-13": {
+   "file": "N03-20260101_13_GML.zip",
+   "retrieved_utc": "2026-10-03T09:28:24Z",
+   "sha256": "94f10b26256566db970dd74b09d614f059c1e8a432f9244ac9c4add76c32ff16"
+  },
+  "n03-14": {
+   "file": "N03-20260101_14_GML.zip",
+   "retrieved_utc": "2026-10-03T09:28:24Z",
+   "sha256": "27ab5aa2982fc6fe81e9c0b08ca75d18177e8228527b2e602ce803e681e7e561"
+  },
+  "abr-town-13": {
+   "file": "mt_town_pref13.csv.zip",
+   "retrieved_utc": "2026-10-03T09:28:24Z",
+   "sha256": "58f62944afa4d641880ea255838c8c0be2cf5f363eb97e27e3173e3eecc493b3"
+  },
+  "abr-town-pos-13": {
+   "file": "mt_town_pos_pref13.csv.zip",
+   "retrieved_utc": "2026-10-03T09:28:24Z",
+   "sha256": "06c42c5a1beb3f2606c1816893fe7bc8efa7d5edf1a8c7a366e8a04bef87c0a8"
+  },
+  "oedo-pdf": {
+   "file": "oedo-extension-2025-10-15.pdf",
+   "retrieved_utc": "2026-10-03T09:28:24Z",
+   "sha256": "d577ea43e35403858b5724b3a88b8c975f921ea0411e2960f71e23bc75647aea"
+  },
+  "osm-kanto": {
+   "file": "kanto-261001.osm.pbf",
+   "retrieved_utc": "2026-10-03T09:29:33Z",
+   "sha256": "5e0b1bec8d8754a18db3950c6a39e4921e8c19069106a1ac038731f3d250ca83"
+  },
+  "estat-pop250-5338": {
+   "file": "tblT001142Q5338.zip",
+   "retrieved_utc": "2026-10-03T11:37:30Z",
+   "sha256": "ec746afc76825c461c4060cf94fa335cd2cb4d34ec829055ca852bee49fc0bd3"
+  },
+  "estat-pop250-5339": {
+   "file": "tblT001142Q5339.zip",
+   "retrieved_utc": "2026-10-03T11:37:31Z",
+   "sha256": "3e29a001e4fc0cfdd840a2885b6ab68cc183c79742e072f33e0ff906250e2d81"
+  },
+  "s12": {
+   "file": "S12-25_GML.zip",
+   "retrieved_utc": "2026-10-03T13:04:49Z",
+   "sha256": "0785e932a32b3ec15e1a1345537ae145eafe1c07bf38d5c16c11ee2b391e7a28"
+  },
+  "n03-26": {
+   "file": "N03-20260101_26_GML.zip",
+   "retrieved_utc": "2026-10-03T14:17:26Z",
+   "sha256": "a4755309cee8eb9365bd2ccbaebd45cedd70d54e03830f757d4c701d5353f1c6"
+  },
+  "n03-27": {
+   "file": "N03-20260101_27_GML.zip",
+   "retrieved_utc": "2026-10-03T14:17:26Z",
+   "sha256": "372ec47455c7f379fda4a408f3f319b126ab25a6a9b98de00a453b87b65b1bb0"
+  },
+  "n03-28": {
+   "file": "N03-20260101_28_GML.zip",
+   "retrieved_utc": "2026-10-03T14:17:26Z",
+   "sha256": "277f2784d46ff8909139ae5db24bc25351bc5c78632e8206971a472d9aa56796"
+  },
+  "n03-29": {
+   "file": "N03-20260101_29_GML.zip",
+   "retrieved_utc": "2026-10-03T14:17:26Z",
+   "sha256": "645b4a5c4ace1844bf589202b3e14294afc479ed6ca994cb24b212db075bf425"
+  },
+  "n03-30": {
+   "file": "N03-20260101_30_GML.zip",
+   "retrieved_utc": "2026-10-03T14:17:26Z",
+   "sha256": "819697b7020ea9c5be59821d25843ef73517a04d390e5a031fd491322ff55140"
+  },
+  "abr-town-27": {
+   "file": "mt_town_pref27.csv.zip",
+   "retrieved_utc": "2026-10-03T14:17:26Z",
+   "sha256": "b2db60d2cb6c77b895f8218dc4643e63387279e8396a1d09353e2194221daaae"
+  },
+  "abr-town-pos-27": {
+   "file": "mt_town_pos_pref27.csv.zip",
+   "retrieved_utc": "2026-10-03T14:17:26Z",
+   "sha256": "793fb8e279db493ed1bff8f5119d14bfcfd01d41efed6f42e95c37e8d69ea3a3"
+  },
+  "estat-pop250-5135": {
+   "file": "tblT001142Q5135.zip",
+   "retrieved_utc": "2026-10-03T14:17:28Z",
+   "sha256": "6a6cd569516ac4eae4484d390d1bae8b976140d74524fe9feeab527a1b5d0db0"
+  },
+  "estat-pop250-5235": {
+   "file": "tblT001142Q5235.zip",
+   "retrieved_utc": "2026-10-03T14:17:28Z",
+   "sha256": "a91c5a5b4b0dc37d9c4224fba0878cdfcf90d542b3e80c1e387d828c8f1eddf6"
+  },
+  "osm-kansai": {
+   "file": "kansai-261001.osm.pbf",
+   "retrieved_utc": "2026-10-03T14:25:59Z",
+   "sha256": "4af8888a116ccce0902f4b2ba3aa6352121a7384d35ff53d3da718df56615fd1"
+  }
+ },
+ "built_utc": "2026-10-03T17:03:37Z"
+}

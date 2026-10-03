@@ -1,0 +1,27 @@
+name = "osaka"
+label = "大阪府"
+pref_code = "27"                       # prefecture listed (N03 municipalities, ABR towns)
+place_name = "大阪"
+crs = "EPSG:6674"              # 平面直角座標系 VI 系 (JGD2011)
+# 表示範囲: N03 の行政区域コードの先頭が一致するもの
+display_prefixes = ["27"]
+display_exclude_codes = []
+compute_buffer_m = 3000
+# 計算用の外枠 (WGS84)。PBF から切り出す範囲。表示範囲 + 3 km を十分に含む
+bbox = [135.05, 34.24, 135.80, 35.08]
+n03_prefectures = ["26", "27", "28", "29", "30"]
+osm_source = "osm-kansai"
+cell_m = 25
+walk_m_per_min = 80
+blank_min = 20                          # walking area of a station; beyond it is a rail blank
+bus_km = 5                              # blank within this road distance: about 30 min to a station by bus
+population_sources = ["estat-pop250-5135", "estat-pop250-5235"]
+pop_threshold = 40                      # people per 250 m mesh (~640 / km2) to count as lived-in
+res_smooth_cells = 4                    # smooth the 250 m mesh steps (cells of cell_m)
+min_blank_km2 = 0.3
+territory_simplify_m = 40               # simplification of the shared territory edges
+access_radius_m = 100
+max_offroad_m = 300
+smooth_sigma_cells = 1.0
+simplify_m = 5
+home_view = { center = [135.52, 34.66], zoom = 9.6 }

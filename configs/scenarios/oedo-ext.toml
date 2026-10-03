@@ -1,0 +1,32 @@
+name = "oedo-ext"
+label = "大江戸線延伸後"
+note = "東京都の検討資料 (2025-10-15) の駅間距離と説明から筆者が位置を推定した概略位置です。座標は公表されていません。開業は2040年頃の想定で、今後変わる可能性があります。"
+title = "大江戸線延伸で空白地帯はどう変わる？"
+verb = "延伸"
+opening = "2040年頃"
+sources = [
+  { name = "東京都 都市整備局 (2025-10-15)", url = "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/2025-10-15-111344-482" },
+  { name = "練馬区", url = "https://www.city.nerima.tokyo.jp/kusei/machi/kunai_tetsudo/ooedoenshin.html" },
+]
+
+# 推定方法 (docs/sources/oedo-extension.md に詳細):
+# 光が丘駅 (N02 の駅区間の中点) から、OSM の補助第230号線 (完成区間・計画線) に沿って西へ測り、
+# 資料の駅間距離 1.5 km / 1.4 km / 1.1 km の位置に置いた。資料の説明との照合結果を basis に書く。
+
+[[stations]]
+name = "土支田（仮称）"
+lon = 139.61341
+lat = 35.76176
+basis = "光が丘駅から約1.5km。土支田通り (都道 練馬川口線) との交差部の約60m東で、資料の「土支田通りの東側」と一致"
+
+[[stations]]
+name = "大泉町（仮称）"
+lon = 139.59934
+lat = 35.76703
+basis = "光が丘駅から約2.9km。外環道との交差部の約110m西で、資料の「外環道との交差部西側」と一致"
+
+[[stations]]
+name = "大泉学園町（仮称）"
+lon = 139.58802
+lat = 35.77055
+basis = "光が丘駅から約4.0km。大泉学園通りとの交差部の約210m東で、資料の「大泉学園通りとの交差部東側」と一致"

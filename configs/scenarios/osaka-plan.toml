@@ -1,0 +1,73 @@
+name = "osaka-plan"
+label = "計画路線の開業後"
+note = "大阪府・事業者などの公開資料にある位置の説明 (どの道路のどちら側か、どの駅と乗り換えか) から筆者が推定した概略位置です。モノレール延伸となにわ筋線の駅は、OpenStreetMap に載っている工事中の路線の上に置きました。座標は公表されていません。開業時期は今後変わる可能性があります。"
+title = "開業予定の路線 (大阪モノレール延伸・なにわ筋線・森之宮新駅) で空白地帯はどう変わる？"
+verb = "開業"
+opening = "2028〜2033年"
+sources = [
+  { name = "大阪府 大阪モノレール延伸事業", url = "https://www.pref.osaka.lg.jp/o130090/toshikotsu/osakamonorail-enshin/index.html" },
+  { name = "大阪モノレール 延伸プロジェクト", url = "https://www.osaka-monorail.co.jp/know/stretching/" },
+  { name = "関西高速鉄道 なにわ筋線", url = "https://www.kr-railway.co.jp/naniwa/" },
+  { name = "大阪府 なにわ筋線", url = "https://www.pref.osaka.lg.jp/o130080/toshikotsu/naniwasuzisen/index.html" },
+  { name = "Osaka Metro 森之宮新駅 (2024-06-28)", url = "https://subway.osakametro.co.jp/news/news_release/20240628_morinomiya_kidoujigyou_tokkyo.php" },
+]
+
+# 推定方法 (docs/sources/osaka-plan.md に詳細):
+# 公開資料の位置の説明から点を置き、モノレール延伸・なにわ筋線は OSM の railway=construction の線上の最も近い点に移した。
+
+# 大阪モノレール本線延伸 (門真市 - 瓜生堂、約 8.9 km、2033 年開業目標)
+[[stations]]
+name = "松生町（仮称）"
+lon = 135.58273
+lat = 34.73049
+basis = "門真市松生町、ららぽーと門真の西側の中央環状線上 (大阪府 松生町駅設置事業)。OSM の工事中の線上"
+
+[[stations]]
+name = "門真南（仮称）"
+lon = 135.59034
+lat = 34.71586
+basis = "地下鉄 長堀鶴見緑地線 門真南駅と乗り換え (大阪府)。地下鉄駅に最も近い OSM の工事中の線上の点"
+
+[[stations]]
+name = "鴻池新田（仮称）"
+lon = 135.59229
+lat = 34.69780
+basis = "JR 鴻池新田駅と乗り換え、JR 高架の南の中央環状線上 (大阪府)。OSM の工事中の線上"
+
+[[stations]]
+name = "荒本（仮称）"
+lon = 135.60181
+lat = 34.68000
+basis = "東大阪市荒本北二丁目、中央大通の北で市役所の北東 (大阪府・東大阪市)。OSM の工事中の線上"
+
+[[stations]]
+name = "瓜生堂（仮称）"
+lon = 135.59884
+lat = 34.66343
+basis = "中央環状線と近鉄奈良線の交点、八戸ノ里と若江岩田の中間。近鉄奈良線にも新駅を設けて乗り換え (大阪府・東大阪市)。OSM の工事中の線と近鉄奈良線の交点"
+
+# なにわ筋線 (大阪(うめきた) - JR難波 / 新今宮、約 7.2 km、2031 年春開業目標)
+[[stations]]
+name = "中之島（仮称）"
+lon = 135.48973
+lat = 34.69116
+basis = "なにわ筋の直下、中之島四丁目と五丁目の境 (関西高速鉄道・大阪市)。OSM の工事中の線上"
+
+[[stations]]
+name = "西本町（仮称）"
+lon = 135.49304
+lat = 34.68168
+basis = "西区阿波座一丁目、中央大通となにわ筋の交差部付近 (関西高速鉄道)。OSM の工事中の線上"
+
+[[stations]]
+name = "南海新難波（仮称）"
+lon = 135.49887
+lat = 34.66574
+basis = "浪速区難波中一丁目、阪神高速環状線の高架付近 (関西高速鉄道)。OSM の工事中の線上"
+
+# Osaka Metro 中央線 森ノ宮 - 森之宮新駅 (約 1.1 km、2028 年春開業予定)
+[[stations]]
+name = "森之宮新駅（仮称）"
+lon = 135.53650
+lat = 34.68700
+basis = "城東区森之宮一丁目、森之宮検車場の北端で大阪公立大学森之宮キャンパス寄り (Osaka Metro)。確度は低め"
